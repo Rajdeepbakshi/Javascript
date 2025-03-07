@@ -19,3 +19,6 @@ fun();
 gun();
 
 console.log(teacher, content);
+
+
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode - for more info on strict mode
