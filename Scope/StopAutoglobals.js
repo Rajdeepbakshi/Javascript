@@ -1,4 +1,4 @@
-"use strict"; //---------> this enables scrict mode in JS
+"use strict"; //---------> this enables strict mode in JS and treat all JS code as newer version of JS
 var teacher = "Rajdeep Bakshi"; // -------> Global Scope
 
 function fun() { //---------> Global Scope as it is not in any other function
