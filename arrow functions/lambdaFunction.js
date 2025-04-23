@@ -7,3 +7,17 @@
     }
 
     processArray([2,3,4,1,5], (x) => { return x*x*x;});
+
+
+    const addTwo = (num1, num2) => {
+        return num1 + num2;
+    }
+
+    //console.log(addTwo(2,3));
+
+    const addThree = (num1, num2, num3) => num1 + num2 + num3; // implicit return
+    //console.log(addThree(2,3,4));
+
+    const additionTwo = (num1, num2) => ({username: "Rajdeep"})
+    console.log(additionTwo(3,4));
+    
