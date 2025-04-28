@@ -126,9 +126,14 @@
 
 const userLoggedIn = true
 const debitCard = true
+const userLoggedInFromGoogle = false
+const userLoggedInFromEmail = true
 
 if(userLoggedIn && debitCard) {
     console.log("You can buy the product");
 }
 
+if(userLoggedInFromGoogle || userLoggedInFromEmail) {
+    console.log("You can login");
+}
 
